@@ -1,0 +1,48 @@
+-> sudo apt install docker.io -y (To Install the Docker). 
+
+-> docker –version (To Check Docker installed or not). 
+
+-> sudo systemctl enable docker –now (To enable the Docker, when the System is enabled the Docker starts (Startup App)). 
+
+-> sudo usermod -aG docker $USER (To Set the User). 
+ 
+-> getent group docker (To get the group attached to docker). 
+
+-> sudo service docker <Command> (Command Such as Start, Stop, status etc). 
+
+-> Go to dockerhub.com and Login. 
+
+-> docker images (To List all the Images that are Present). 
+
+-> docker ps (To List all the Containers that are Present). 
+
+-> docker ps –a (To check the status of the Container). 
+
+-> docker build –t <Image_Name>:<Tag_Name> . (To build the Docker Image, if Tag_Name is not mentioned, it takes it as "latest". Both Image_Name and Tag_Name should be in lowercase). 
+
+-> docker run –p <Exposed_Port>:<Publsih_Port> <Image_Name>:<Tag_Name> (To run the Docker Image, --publish option is shortened to -p). 
+
+->  docker run --rm -p  <Exposed_Port>:<Publsih_Port> <Image_Name>:<Tag_Name>  (To remove the Docker once it exits). 
+
+-> docker run -d –p <Exposed_Port>:<Publsih_Port> <Image_Name>:<Tag_Name> (To run the Docker Image  in Detached mode). 
+
+-> docker restart <Container_ID> (To restart the Container that is running). 
+
+-> docker stop <Container_ID> (To stop the Container that is running). 
+
+-> docker rm <Container_ID> (To delete the Container). 
+
+-> docker rmi <Image_ID> or docker rmi <Image_Name>:<Tag_Name> (To remove the Image). 
+
+-> docker exec –it <Container_ID> sh (To get into the Docker Container and see the things in the Container). 
+
+-> docker login (To log into the Docker Hub). 
+
+-> docker tag <Local-Image>:<Tag_Name> <New-Repo>:<Tag_Name> (To Create a repo tag in the System). 
+
+-> docker push <New-Repo>:<Tag_Name> (Pushing the image to the Docker). 
+ 
+
+NOTE: Image – Docker Image is just an Image which is present on the DockerHub but not running or getting Executed. 
+
+    Container – Docker Container is the Image that is being Executed. 
