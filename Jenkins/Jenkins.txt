@@ -1,0 +1,30 @@
+->  sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \ 
+  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key 
+
+-> echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \ 
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \ 
+  /etc/apt/sources.list.d/jenkins.list > /dev/null 
+
+-> sudo apt-get update 
+
+-> sudo apt-get install jenkins 
+
+-> Launch or Goto "localhost:8080" 
+
+-> sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+-> Continue.
+ 
+-> Install Suggested Plugins. 
+
+-> Enter the Details (Save and Continue). 
+ 
+-> Start using Jenkins. 
+
+-> Mange Jenkins -> Credentials -> Create a New Global Credentials. 
+
+-> Manage Jenkins -> Plugins -> Available Plugins -> Select the Plugins Necessary by searching and Click Install -> Check the Restart Jenkins After installation. 
+
+-> New Item -> Enter Name -> Select Any (Usually Pipeline or Multibranch Pipeline, [freestyle is used only for one Command execution]) -> Configure your Pipeline. 
+
+-> Click Pipeline Syntax below the Pipeline Block in which You Can get the Syntax for any "Sample Step". 
