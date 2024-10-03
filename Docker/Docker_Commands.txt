@@ -43,6 +43,6 @@
 -> docker push <New-Repo>:<Tag_Name> (Pushing the image to the Docker). 
  
 
-NOTE: Image – Docker Image is just an Image which is present on the DockerHub but not running or getting Executed. 
+NOTE: Image – Docker Image is just an Image which is present on the DockerHub but not running or getting Executed. It can br pulled and used.
 
     Container – Docker Container is the Image that is being Executed. 
