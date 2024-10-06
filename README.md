@@ -88,10 +88,6 @@ We welcome contributions from the community! If you have suggestions, improvemen
 3. Make your changes and commit them.
 4. Push to your branch and open a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 Thank you for checking out our DevOps Documentation! Happy learning!
