@@ -90,4 +90,4 @@ We welcome contributions from the community! If you have suggestions, improvemen
 
 ---
 
-Thank you for checking out our DevOps Documentation! Happy learning!
+Thank you for checking out the DevOps Documentations! Happy learning!
